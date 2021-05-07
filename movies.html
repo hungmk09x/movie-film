@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>netflix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container header">
+        <img src="img/Netflix-Logo.png" class="logo">
+        <a href="#" class="header-btn"><i class="fa fa-user" ></i>Account</a>
+    </div>
+    <div class="container movie-details">
+        <div class="row">
+            <div class="col-md-6 left-box">
+                <h1>ROBOT 2.0</h1>
+                <p>181 phút ngập tràn cảm xúc của Avengers: Endgame đã không chỉ thỏa lòng mong đợi của các fan mà vượt qua sự kỳ vọng, là kết tinh của một kỷ nguyên MCU không thể nào quên.</p>
+                <p>Cast:</p>
+                <div class="casting">
+                <img src="img/img-1.jpg" title="Do Dang Hung">
+                <img src="img/img-2.jpg" title="John">
+                <img src="img/img-3.jpg" title="Nick">
+                <img src="img/img-4.jpg" title="Anna">
+                </div>
+                <a href="#"><i class="fa fa-play"></i>Watch Now</a>
+                <a href="#" class="download-btn"><i class="fa fa-arrow-down"></i>DownLoad</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="img/movie-img.jpg" class="movie-img">
+            </div>
+            <div class="container series">
+                <h3>Popular: Thời Gian Chuẩn Bị Ra Phim <span  onclick="CountDow()" id="timeOut"></span></h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="img/m-1.jpg">
+                            </div>
+                            <div class="col-6">
+                                <img src="img/m-2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="img/m-3.jpg">
+                            </div>
+                            <div class="col-6">
+                                <img src="img/m-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="img/m-1.jpg">
+                            </div>
+                            <div class="col-6">
+                                <img src="img/m-2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="animation-card container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 our-story-text">
+                <h1 class="our-story-title">Thưởng thức trên TV của bạn.</h1>
+                <h2 class="our-story-subtitle">Xem trên TV thông minh, Playstation, Xbox, Chromecast, Apple TV, đầu phát Blu-ray và nhiều thiết bị khác.</h2>
+            </div>
+            <div class="col-6 animation-video">
+                <img class="our-story-card-img" src="img/tv.png">
+                <div class="our-story-animation-card">
+                    <video class="our-story-auto-video" autoplay playsinline muted loop>
+                        <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="our-story-download container-fluid">
+    <div class="container">
+            <div class="row">
+                <div class="col-6 our-story-image">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+                    <div class="animation-story-img">
+                        <div class="movies-story-download">
+                            <img  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+                        </div>
+                        <div class="story-text">
+                            <div class="text-0">Cậu bé mất tích</div>
+                            <div class="text-1">Đang tải xuống...</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-6 our-story-text-onload">
+                        <h1 style="color: white" class="our-story-title">Tải xuống nội dung để xem ngoại tuyến.</h1>
+                        <h2 class="our-story-subtitle">Lưu những nội dung yêu thích một cách dễ dàng và luôn có thứ để xem.</h2>
+                    </div>
+            </div>
+        </div>
+</div>
+</body>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
